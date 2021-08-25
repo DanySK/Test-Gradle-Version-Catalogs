@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:_")
+    detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:1.18.0")
 }
 
 detekt {
