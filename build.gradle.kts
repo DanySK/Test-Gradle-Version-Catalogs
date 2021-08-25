@@ -1,5 +1,3 @@
-import org.danilopianini.gradle.mavencentral.mavenCentral
-
 plugins {
     kotlin("jvm")
     jacoco
