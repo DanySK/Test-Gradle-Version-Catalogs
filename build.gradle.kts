@@ -14,24 +14,13 @@ group = "org.danilopianini"
 
 repositories {
     mavenCentral()
-    jcenter {
-        content {
-            onlyForConfigurations(
-                "detekt",
-                "dokkaJavadocPlugin",
-                "dokkaJavadocRuntime"
-            )
-        }
-    }
 }
 
 dependencies {
-    detektPlugins("io.gitlab.arturbosch.detekt:detekt-formatting:_")
+    detektPlugins(libs.detekt.formatting)
     implementation(kotlin("stdlib"))
-    testImplementation("io.kotest:kotest-runner-junit5:_")
-    testImplementation("io.kotest:kotest-assertions-core-jvm:_")
-    testImplementation("com.nhaarman.mockitokotlin2:mockito-kotlin:_")
-    testImplementation("org.mockito:mockito-core:_")
+    testImplementation(libs.bundles.kotest)
+    testImplementation(libs.mockito)
 }
 
 kotlin {
