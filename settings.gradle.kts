@@ -11,4 +11,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "Template-for-Kotlin-Gradle-Projects"
+rootProject.name = "Test-Gradle-Version-Catalogs"
