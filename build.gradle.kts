@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm")
-    id("io.gitlab.arturbosch.detekt")
+    alias(libs.plugins.kotlinJvm)
+    alias(libs.plugins.detekt)
 }
 
 group = "org.danilopianini"
