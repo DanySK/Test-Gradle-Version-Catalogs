@@ -3,5 +3,6 @@
   "extends": [
     "local>DanySK/renovate-config"
   ],
+  "baseBranches": [ "master", "minimal" ],
   "automerge": false
 }
